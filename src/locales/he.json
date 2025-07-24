@@ -10,7 +10,67 @@
     "edit": "עריכה",
     "create": "יצירה",
     "welcome": "ברוך הבא, {{name}}! 👋",
-    "overview": "הנה סקירה של התקדמות התקציב שלך"
+    "overview": "הנה סקירה של התקדמות התקציב שלך",
+    "switchLanguage": "החלף שפה"
+  },
+  "auth": {
+    "signIn": {
+      "title": "ברוך השב",
+      "subtitle": "התחבר לחשבון קונטה שלך",
+      "button": "התחברות",
+      "loading": "מתחבר...",
+      "success": "התחברת בהצלחה!",
+      "error": "אימייל או סיסמה שגויים",
+      "noAccount": "אין לך חשבון?"
+    },
+    "signUp": {
+      "title": "יצירת חשבון",
+      "subtitle": "הצטרף לקונטה היום",
+      "button": "יצירת חשבון",
+      "loading": "יוצר חשבון...",
+      "success": "החשבון נוצר בהצלחה!",
+      "error": "נכשל ביצירת החשבון",
+      "hasAccount": "כבר יש לך חשבון?",
+      "verificationSent": "אימייל אימות נשלח!"
+    },
+    "verification": {
+      "title": "אמת את האימייל שלך",
+      "subtitle": "הכנס את קוד האימות שנשלח לאימייל שלך",
+      "code": "קוד אימות",
+      "codePlaceholder": "הכנס קוד בן 6 ספרות",
+      "verify": "אמת אימייל",
+      "verifying": "מאמת...",
+      "error": "קוד אימות שגוי"
+    },
+    "forgotPassword": {
+      "title": "איפוס סיסמה",
+      "subtitle": "הכנס את האימייל שלך לקבלת קוד איפוס",
+      "resetTitle": "יצירת סיסמה חדשה",
+      "resetSubtitle": "הכנס את הקוד והסיסמה החדשה שלך",
+      "sendButton": "שלח קוד איפוס",
+      "resetButton": "איפוס סיסמה",
+      "sending": "שולח...",
+      "resetting": "מאפס...",
+      "emailSent": "קוד איפוס נשלח לאימייל שלך",
+      "success": "הסיסמה אופסה בהצלחה!",
+      "error": "נכשל בשליחת קוד איפוס",
+      "resetError": "נכשל באיפוס הסיסמה"
+    },
+    "fields": {
+      "email": "אימייל",
+      "emailPlaceholder": "הכנס את האימייל שלך",
+      "password": "סיסמה",
+      "passwordPlaceholder": "הכנס את הסיסמה שלך",
+      "newPassword": "סיסמה חדשה",
+      "newPasswordPlaceholder": "הכנס סיסמה חדשה",
+      "firstName": "שם פרטי",
+      "firstNamePlaceholder": "הכנס שם פרטי",
+      "lastName": "שם משפחה",
+      "lastNamePlaceholder": "הכנס שם משפחה"
+    },
+    "forgotPassword": "שכחת סיסמה?",
+    "backToSignIn": "חזור להתחברות"
+  },
   },
   "navigation": {
     "dashboard": "לוח בקרה",
@@ -68,6 +128,133 @@
     },
     "footer": {
       "copyright": "© 2024 קונטה. ניהול תקציב חכם פשוט."
+    }
+  },
+  "subscription": {
+    "badge": "תכונות פרימיום",
+    "title": "בחר את התוכנית שלך",
+    "subtitle": "פתח את המלוא הפוטנציאל של קונטה עם התכונות הפרימיום שלנו",
+    "upgrading": "מעבד...",
+    "upgradeSuccess": "שודרג לפרימיום בהצלחה!",
+    "upgradeError": "נכשל בשדרוג המנוי",
+    "guarantee": "החזר כספי תוך 30 יום",
+    "contact": "יש שאלות? צור קשר עם צוות התמיכה שלנו",
+    "gate": {
+      "title": "תכונת פרימיום",
+      "description": "שדרג לפרימיום כדי לפתוח תכונה זו",
+      "featureDescription": "{{feature}} זמין עם מנוי פרימיום",
+      "upgradeButton": "שדרג לפרימיום",
+      "moneyBack": "החזר כספי תוך 30 יום"
+    },
+    "benefits": {
+      "unlimited": "תקציבים ויעדים ללא הגבלה",
+      "priority": "תמיכת לקוחות עדיפות",
+      "advanced": "אנליטיקה ותובנות מתקדמות",
+      "support": "תמיכה פרימיום 24/7"
+    },
+    "plans": {
+      "current": "התוכנית הנוכחית",
+      "downgrade": "הורדת דרגה",
+      "free": {
+        "title": "חינמי",
+        "price": "₪0",
+        "description": "מושלם להתחלה",
+        "features": {
+          "budgets": "עד 10 תקציבים",
+          "basic": "מעקב בסיסי",
+          "export": "ייצוא לאקסל"
+        }
+      },
+      "premium": {
+        "title": "פרימיום",
+        "price": "₪39",
+        "period": "חודש",
+        "popular": "הכי פופולרי",
+        "description": "כל מה שאתה צריך כדי להצליח",
+        "button": "שדרג לפרימיום",
+        "features": {
+          "unlimited": "תקציבים ללא הגבלה",
+          "advanced": "אנליטיקה מתקדמת",
+          "priority": "תמיכה עדיפות",
+          "support": "תמיכת לקוחות 24/7",
+          "analytics": "תובנות מפורטות"
+        }
+      }
+    },
+    "comparison": {
+      "title": "השוואת תכונות"
+    },
+    "features": {
+      "unlimited": {
+        "title": "תקציבים ללא הגבלה",
+        "description": "צור כמה תקציבים שאתה צריך"
+      },
+      "advanced": {
+        "title": "אנליטיקה מתקדמת",
+        "description": "תובנות ודוחות מפורטים"
+      },
+      "priority": {
+        "title": "תמיכה עדיפות",
+        "description": "קבל עזרה כשאתה הכי צריך"
+      },
+      "support": {
+        "title": "תמיכה 24/7",
+        "description": "סיוע לקוחות מסביב לשעון"
+      }
+    }
+  },
+  "account": {
+    "title": "הגדרות חשבון",
+    "subtitle": "נהל את החשבון והמנוי שלך",
+    "tabs": {
+      "profile": "פרופיל",
+      "subscription": "מנוי",
+      "security": "אבטחה",
+      "notifications": "התראות"
+    },
+    "profile": {
+      "title": "מידע פרופיל",
+      "update": "עדכן פרופיל",
+      "updating": "מעדכן...",
+      "updateSuccess": "הפרופיל עודכן בהצלחה",
+      "updateError": "נכשל בעדכון הפרופיל",
+      "emailNote": "לא ניתן לשנות אימייל כאן"
+    },
+    "subscription": {
+      "title": "ניהול מנוי",
+      "premium": "תוכנית פרימיום",
+      "free": "תוכנית חינמית",
+      "active": "פעיל",
+      "inactive": "לא פעיל",
+      "premiumDescription": "יש לך גישה לכל התכונות הפרימיום",
+      "freeDescription": "שדרג כדי לפתוח תכונות פרימיום",
+      "upgrade": "שדרג לפרימיום",
+      "manageBilling": "נהל חיוב",
+      "cancel": "בטל מנוי"
+    },
+    "security": {
+      "title": "הגדרות אבטחה",
+      "changePassword": "שנה סיסמה",
+      "twoFactor": "אימות דו-שלבי",
+      "sessions": "הפעלות פעילות"
+    },
+    "notifications": {
+      "title": "העדפות התראות",
+      "email": "התראות אימייל",
+      "emailDescription": "קבל עדכונים באימייל",
+      "budget": "התראות תקציב",
+      "budgetDescription": "קבל התראות על אבני דרך בתקציב",
+      "goals": "תזכורות יעדים",
+      "goalsDescription": "תזכורות לעדכן את ההתקדמות שלך"
+    },
+    "danger": {
+      "title": "אזור מסוכן",
+      "description": "מחק לצמיתות את החשבון וכל הנתונים שלך",
+      "delete": "מחק חשבון",
+      "deleting": "מוחק...",
+      "deleteConfirm": "האם אתה בטוח שברצונך למחוק את החשבון שלך? פעולה זו לא ניתנת לביטול.",
+      "deleteSuccess": "החשבון נמחק בהצלחה",
+      "deleteError": "נכשל במחיקת החשבון"
     }
   },
   "dashboard": {

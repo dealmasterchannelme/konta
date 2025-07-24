@@ -10,7 +10,66 @@
     "edit": "Edit",
     "create": "Create",
     "welcome": "Welcome back, {{name}}! 👋",
-    "overview": "Here's an overview of your budget progress"
+    "overview": "Here's an overview of your budget progress",
+    "switchLanguage": "Switch language"
+  },
+  "auth": {
+    "signIn": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to your Konta account",
+      "button": "Sign In",
+      "loading": "Signing in...",
+      "success": "Successfully signed in!",
+      "error": "Invalid email or password",
+      "noAccount": "Don't have an account?"
+    },
+    "signUp": {
+      "title": "Create Account",
+      "subtitle": "Join Konta today",
+      "button": "Create Account",
+      "loading": "Creating account...",
+      "success": "Account created successfully!",
+      "error": "Failed to create account",
+      "hasAccount": "Already have an account?",
+      "verificationSent": "Verification email sent!"
+    },
+    "verification": {
+      "title": "Verify Your Email",
+      "subtitle": "Enter the verification code sent to your email",
+      "code": "Verification Code",
+      "codePlaceholder": "Enter 6-digit code",
+      "verify": "Verify Email",
+      "verifying": "Verifying...",
+      "error": "Invalid verification code"
+    },
+    "forgotPassword": {
+      "title": "Reset Password",
+      "subtitle": "Enter your email to receive a reset code",
+      "resetTitle": "Create New Password",
+      "resetSubtitle": "Enter the code and your new password",
+      "sendButton": "Send Reset Code",
+      "resetButton": "Reset Password",
+      "sending": "Sending...",
+      "resetting": "Resetting...",
+      "emailSent": "Reset code sent to your email",
+      "success": "Password reset successfully!",
+      "error": "Failed to send reset code",
+      "resetError": "Failed to reset password"
+    },
+    "fields": {
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "newPassword": "New Password",
+      "newPasswordPlaceholder": "Enter new password",
+      "firstName": "First Name",
+      "firstNamePlaceholder": "Enter first name",
+      "lastName": "Last Name",
+      "lastNamePlaceholder": "Enter last name"
+    },
+    "forgotPassword": "Forgot password?",
+    "backToSignIn": "Back to sign in"
   },
   "navigation": {
     "dashboard": "Dashboard",
@@ -68,6 +127,133 @@
     },
     "footer": {
       "copyright": "© 2024 Konta. Smart budget management made simple."
+    }
+  },
+  "subscription": {
+    "badge": "Premium Features",
+    "title": "Choose Your Plan",
+    "subtitle": "Unlock the full potential of Konta with our premium features",
+    "upgrading": "Processing...",
+    "upgradeSuccess": "Successfully upgraded to premium!",
+    "upgradeError": "Failed to upgrade subscription",
+    "guarantee": "30-day money-back guarantee",
+    "contact": "Questions? Contact our support team",
+    "gate": {
+      "title": "Premium Feature",
+      "description": "Upgrade to premium to unlock this feature",
+      "featureDescription": "{{feature}} is available with premium subscription",
+      "upgradeButton": "Upgrade to Premium",
+      "moneyBack": "30-day money-back guarantee"
+    },
+    "benefits": {
+      "unlimited": "Unlimited budgets and goals",
+      "priority": "Priority customer support",
+      "advanced": "Advanced analytics and insights",
+      "support": "24/7 premium support"
+    },
+    "plans": {
+      "current": "Current Plan",
+      "downgrade": "Downgrade",
+      "free": {
+        "title": "Free",
+        "price": "$0",
+        "description": "Perfect for getting started",
+        "features": {
+          "budgets": "Up to 10 budgets",
+          "basic": "Basic tracking",
+          "export": "Excel export"
+        }
+      },
+      "premium": {
+        "title": "Premium",
+        "price": "$9.99",
+        "period": "month",
+        "popular": "Most Popular",
+        "description": "Everything you need to succeed",
+        "button": "Upgrade to Premium",
+        "features": {
+          "unlimited": "Unlimited budgets",
+          "advanced": "Advanced analytics",
+          "priority": "Priority support",
+          "support": "24/7 customer support",
+          "analytics": "Detailed insights"
+        }
+      }
+    },
+    "comparison": {
+      "title": "Feature Comparison"
+    },
+    "features": {
+      "unlimited": {
+        "title": "Unlimited Budgets",
+        "description": "Create as many budgets as you need"
+      },
+      "advanced": {
+        "title": "Advanced Analytics",
+        "description": "Detailed insights and reporting"
+      },
+      "priority": {
+        "title": "Priority Support",
+        "description": "Get help when you need it most"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Round-the-clock customer assistance"
+      }
+    }
+  },
+  "account": {
+    "title": "Account Settings",
+    "subtitle": "Manage your account and subscription",
+    "tabs": {
+      "profile": "Profile",
+      "subscription": "Subscription",
+      "security": "Security",
+      "notifications": "Notifications"
+    },
+    "profile": {
+      "title": "Profile Information",
+      "update": "Update Profile",
+      "updating": "Updating...",
+      "updateSuccess": "Profile updated successfully",
+      "updateError": "Failed to update profile",
+      "emailNote": "Email cannot be changed here"
+    },
+    "subscription": {
+      "title": "Subscription Management",
+      "premium": "Premium Plan",
+      "free": "Free Plan",
+      "active": "Active",
+      "inactive": "Inactive",
+      "premiumDescription": "You have access to all premium features",
+      "freeDescription": "Upgrade to unlock premium features",
+      "upgrade": "Upgrade to Premium",
+      "manageBilling": "Manage Billing",
+      "cancel": "Cancel Subscription"
+    },
+    "security": {
+      "title": "Security Settings",
+      "changePassword": "Change Password",
+      "twoFactor": "Two-Factor Authentication",
+      "sessions": "Active Sessions"
+    },
+    "notifications": {
+      "title": "Notification Preferences",
+      "email": "Email Notifications",
+      "emailDescription": "Receive updates via email",
+      "budget": "Budget Alerts",
+      "budgetDescription": "Get notified about budget milestones",
+      "goals": "Goal Reminders",
+      "goalsDescription": "Reminders to update your progress"
+    },
+    "danger": {
+      "title": "Danger Zone",
+      "description": "Permanently delete your account and all data",
+      "delete": "Delete Account",
+      "deleting": "Deleting...",
+      "deleteConfirm": "Are you sure you want to delete your account? This action cannot be undone.",
+      "deleteSuccess": "Account deleted successfully",
+      "deleteError": "Failed to delete account"
     }
   },
   "dashboard": {
