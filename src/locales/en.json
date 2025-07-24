@@ -1,0 +1,138 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "deleting": "Deleting...",
+    "save": "Save",
+    "saving": "Saving...",
+    "edit": "Edit",
+    "create": "Create",
+    "welcome": "Welcome back, {{name}}! 👋",
+    "overview": "Here's an overview of your budget progress"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "getStarted": "Get Started"
+  },
+  "landing": {
+    "hero": {
+      "badge": "Smart Budget Management",
+      "title": "Take Control of Your",
+      "titleHighlight": "Financial Future",
+      "description": "Konta helps you set, track, and achieve your financial goals with intelligent budget management tools. Import your data, visualize your progress, and reach your dreams.",
+      "startFree": "Start Free Today",
+      "signIn": "Sign In"
+    },
+    "features": {
+      "title": "Everything you need to succeed",
+      "subtitle": "Powerful features designed to make budget management simple and effective",
+      "items": {
+        "tracking": {
+          "title": "Smart Goal Tracking",
+          "description": "Set financial goals and track your progress with intuitive visual indicators."
+        },
+        "importExport": {
+          "title": "Import & Export",
+          "description": "Seamlessly import and export your budget data via Excel and CSV files."
+        },
+        "security": {
+          "title": "Secure & Private",
+          "description": "Your financial data is protected with enterprise-grade security."
+        },
+        "speed": {
+          "title": "Lightning Fast",
+          "description": "Manage your budgets with a responsive, modern interface built for speed."
+        }
+      }
+    },
+    "benefits": {
+      "title": "Why choose Konta?",
+      "items": [
+        "Create unlimited budget goals",
+        "Import from Excel and CSV files",
+        "Export your data anytime",
+        "Track progress with visual indicators",
+        "Secure cloud-based storage",
+        "Mobile-responsive design"
+      ],
+      "cta": "Get Started Free"
+    },
+    "cta": {
+      "title": "Ready to transform your finances?",
+      "description": "Join thousands of users who have already taken control of their financial future with Konta.",
+      "button": "Start Your Journey Today"
+    },
+    "footer": {
+      "copyright": "© 2024 Konta. Smart budget management made simple."
+    }
+  },
+  "dashboard": {
+    "tabs": {
+      "budgets": "My Budgets",
+      "create": "Create Budget",
+      "importExport": "Import/Export"
+    },
+    "summary": {
+      "totalBudgets": "Total Budgets",
+      "totalGoals": "Total Goals",
+      "totalSaved": "Total Saved",
+      "completed": "Completed",
+      "complete": "complete"
+    }
+  },
+  "budget": {
+    "card": {
+      "goalReached": "Goal Reached!",
+      "progress": "Progress",
+      "current": "Current",
+      "goal": "Goal",
+      "remaining": "Remaining to goal",
+      "created": "Created"
+    },
+    "list": {
+      "title": "Your Budgets",
+      "empty": {
+        "title": "No budgets yet",
+        "description": "Create your first budget to start tracking your financial goals!"
+      },
+      "loading": "Loading your budgets...",
+      "error": {
+        "title": "Failed to load budgets",
+        "description": "Please try refreshing the page"
+      }
+    },
+    "form": {
+      "title": "Add New Budget",
+      "name": "Budget Name",
+      "name_placeholder": "e.g., Summer Project",
+      "goal": "Goal Amount",
+      "goal_placeholder": "e.g., 5000",
+      "missing_fields": "Please fill in both name and goal amount",
+      "max_reached_premium": "You've reached the maximum number of budgets.",
+      "max_reached": "Free plan allows up to 10 budgets only. Click here to upgrade to premium",
+      "success": "Budget created successfully",
+      "error": "Error creating budget",
+      "loading": "Creating...",
+      "cta": "Create Budget"
+    }
+  },
+  "import_export": {
+    "download_template": "Download Excel Template",
+    "import_budgets": "Import Budgets from Excel",
+    "export_budgets": "Export Budgets to Excel",
+    "template_downloaded": "Template downloaded successfully",
+    "import_success": "Budgets imported successfully!",
+    "import_fail": "Error importing budgets",
+    "export_success": "Export completed successfully!",
+    "no_budgets": "No budgets to export."
+  },
+  "language": {
+    "en": "English",
+    "he": "עברית",
+    "switch": "Switch Language"
+  }
+}
